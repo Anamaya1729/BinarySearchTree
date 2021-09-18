@@ -76,7 +76,7 @@ class Node {
         console.log(this.data)
         stroke(0);
         fill(0);
-        ellipse(this.x, this.y, 40, 40);
+        ellipse(this.x, this.y, 400, 400);
         fill(255);
         noStroke();
         textAlign(CENTER);
