@@ -1,4 +1,4 @@
-let tree,root;
+let tree;
 
 function setup() {
   createCanvas(windowWidth,windowHeight)
@@ -11,5 +11,4 @@ function setup() {
   }
   console.log(tree)
   tree.Print()
-  
 }
