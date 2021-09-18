@@ -76,10 +76,11 @@ class Node {
         console.log(this.data)
         stroke(0);
         fill(0);
-        ellipse(this.x, this.y, 400, 400);
+        ellipse(this.x, this.y, 50, 50);
         fill(255);
         noStroke();
         textAlign(CENTER);
+        textSize(30);
         text(this.data, this.x, this.y + 5);
         if(this.right != null){
             this.right.Visit(this)
